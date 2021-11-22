@@ -18,9 +18,9 @@
     margin: 15px;
     display: block;
     display: -webkit-box;
-    height: 2.6em; 
+    height: 2.6em;
     line-height: 1.3em;
-    -webkit-line-clamp: 2; 
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -58,4 +58,10 @@
 
 .deactive {
     opacity: 0.3;
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: calc(100% / 2);
+    }
 }

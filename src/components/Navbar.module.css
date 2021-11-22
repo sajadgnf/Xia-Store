@@ -34,3 +34,12 @@ a {
     height: 50px;
     border-radius: 50%;
 }
+
+@media (max-width: 530px) {
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        display: none;
+    }
+}

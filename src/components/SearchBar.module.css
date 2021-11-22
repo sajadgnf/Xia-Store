@@ -31,3 +31,9 @@
     color: #fff;
     padding-bottom: 5px;
 }
+
+@media (max-width:800px) {
+    .search_bar h1 {
+        display: none;
+    }
+}

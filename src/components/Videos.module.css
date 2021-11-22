@@ -23,8 +23,14 @@
     background: #e0e0e0;
 }
 
-.cards{
+.cards {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        flex-wrap: wrap;
+    }
 }
