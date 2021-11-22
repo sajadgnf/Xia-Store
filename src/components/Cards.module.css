@@ -1,0 +1,30 @@
+.container {
+    margin-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header h2 {
+    margin: 0 10px;
+    letter-spacing: 3px;
+    color: #616161;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.header span {
+    width: 500px;
+    height: 1px;
+    display: inline-block;
+    background: #e0e0e0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
